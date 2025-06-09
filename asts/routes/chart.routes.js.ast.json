@@ -1,0 +1,1115 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 311,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0,
+      "index": 0
+    },
+    "end": {
+      "line": 11,
+      "column": 0,
+      "index": 311
+    }
+  },
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 311,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0,
+        "index": 0
+      },
+      "end": {
+        "line": 11,
+        "column": 0,
+        "index": 311
+      }
+    },
+    "sourceType": "module",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "VariableDeclaration",
+        "start": 1,
+        "end": 43,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0,
+            "index": 1
+          },
+          "end": {
+            "line": 2,
+            "column": 42,
+            "index": 43
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 7,
+            "end": 42,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 6,
+                "index": 7
+              },
+              "end": {
+                "line": 2,
+                "column": 41,
+                "index": 42
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 7,
+              "end": 12,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 6,
+                  "index": 7
+                },
+                "end": {
+                  "line": 2,
+                  "column": 11,
+                  "index": 12
+                },
+                "identifierName": "route"
+              },
+              "name": "route"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 15,
+              "end": 42,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 14,
+                  "index": 15
+                },
+                "end": {
+                  "line": 2,
+                  "column": 41,
+                  "index": 42
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 15,
+                "end": 40,
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 14,
+                    "index": 15
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 39,
+                    "index": 40
+                  }
+                },
+                "object": {
+                  "type": "CallExpression",
+                  "start": 15,
+                  "end": 33,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 14,
+                      "index": 15
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 32,
+                      "index": 33
+                    }
+                  },
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 15,
+                    "end": 22,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 14,
+                        "index": 15
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 21,
+                        "index": 22
+                      },
+                      "identifierName": "require"
+                    },
+                    "name": "require"
+                  },
+                  "arguments": [
+                    {
+                      "type": "StringLiteral",
+                      "start": 23,
+                      "end": 32,
+                      "loc": {
+                        "start": {
+                          "line": 2,
+                          "column": 22,
+                          "index": 23
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 31,
+                          "index": 32
+                        }
+                      },
+                      "extra": {
+                        "rawValue": "express",
+                        "raw": "\"express\""
+                      },
+                      "value": "express"
+                    }
+                  ]
+                },
+                "computed": false,
+                "property": {
+                  "type": "Identifier",
+                  "start": 34,
+                  "end": 40,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 33,
+                      "index": 34
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 39,
+                      "index": 40
+                    },
+                    "identifierName": "Router"
+                  },
+                  "name": "Router"
+                }
+              },
+              "arguments": []
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 45,
+        "end": 82,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0,
+            "index": 45
+          },
+          "end": {
+            "line": 4,
+            "column": 37,
+            "index": 82
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 51,
+            "end": 81,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 6,
+                "index": 51
+              },
+              "end": {
+                "line": 4,
+                "column": 36,
+                "index": 81
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 51,
+              "end": 59,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 6,
+                  "index": 51
+                },
+                "end": {
+                  "line": 4,
+                  "column": 14,
+                  "index": 59
+                },
+                "identifierName": "passport"
+              },
+              "name": "passport"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 62,
+              "end": 81,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 17,
+                  "index": 62
+                },
+                "end": {
+                  "line": 4,
+                  "column": 36,
+                  "index": 81
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 62,
+                "end": 69,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 17,
+                    "index": 62
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 24,
+                    "index": 69
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 70,
+                  "end": 80,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 25,
+                      "index": 70
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 35,
+                      "index": 80
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "passport",
+                    "raw": "\"passport\""
+                  },
+                  "value": "passport"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 83,
+        "end": 166,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0,
+            "index": 83
+          },
+          "end": {
+            "line": 5,
+            "column": 83,
+            "index": 166
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 89,
+            "end": 165,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 6,
+                "index": 89
+              },
+              "end": {
+                "line": 5,
+                "column": 82,
+                "index": 165
+              }
+            },
+            "id": {
+              "type": "ObjectPattern",
+              "start": 89,
+              "end": 117,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 6,
+                  "index": 89
+                },
+                "end": {
+                  "line": 5,
+                  "column": 34,
+                  "index": 117
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 90,
+                  "end": 102,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 7,
+                      "index": 90
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 19,
+                      "index": 102
+                    }
+                  },
+                  "key": {
+                    "type": "Identifier",
+                    "start": 90,
+                    "end": 102,
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 7,
+                        "index": 90
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 19,
+                        "index": 102
+                      },
+                      "identifierName": "getChartData"
+                    },
+                    "name": "getChartData"
+                  },
+                  "computed": false,
+                  "method": false,
+                  "shorthand": true,
+                  "value": {
+                    "type": "Identifier",
+                    "start": 90,
+                    "end": 102,
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 7,
+                        "index": 90
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 19,
+                        "index": 102
+                      },
+                      "identifierName": "getChartData"
+                    },
+                    "name": "getChartData"
+                  },
+                  "extra": {
+                    "shorthand": true
+                  }
+                },
+                {
+                  "type": "ObjectProperty",
+                  "start": 104,
+                  "end": 116,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 21,
+                      "index": 104
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 33,
+                      "index": 116
+                    }
+                  },
+                  "key": {
+                    "type": "Identifier",
+                    "start": 104,
+                    "end": 116,
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 21,
+                        "index": 104
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 33,
+                        "index": 116
+                      },
+                      "identifierName": "getChartPage"
+                    },
+                    "name": "getChartPage"
+                  },
+                  "computed": false,
+                  "method": false,
+                  "shorthand": true,
+                  "value": {
+                    "type": "Identifier",
+                    "start": 104,
+                    "end": 116,
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 21,
+                        "index": 104
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 33,
+                        "index": 116
+                      },
+                      "identifierName": "getChartPage"
+                    },
+                    "name": "getChartPage"
+                  },
+                  "extra": {
+                    "shorthand": true
+                  }
+                }
+              ]
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 120,
+              "end": 165,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 37,
+                  "index": 120
+                },
+                "end": {
+                  "line": 5,
+                  "column": 82,
+                  "index": 165
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 120,
+                "end": 127,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 37,
+                    "index": 120
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 44,
+                    "index": 127
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 128,
+                  "end": 164,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 45,
+                      "index": 128
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 81,
+                      "index": 164
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "../controllers/chart.controller.js",
+                    "raw": "\"../controllers/chart.controller.js\""
+                  },
+                  "value": "../controllers/chart.controller.js"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 168,
+        "end": 247,
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 0,
+            "index": 168
+          },
+          "end": {
+            "line": 7,
+            "column": 79,
+            "index": 247
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 168,
+          "end": 246,
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 0,
+              "index": 168
+            },
+            "end": {
+              "line": 7,
+              "column": 78,
+              "index": 246
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 168,
+            "end": 177,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0,
+                "index": 168
+              },
+              "end": {
+                "line": 7,
+                "column": 9,
+                "index": 177
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 168,
+              "end": 173,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 0,
+                  "index": 168
+                },
+                "end": {
+                  "line": 7,
+                  "column": 5,
+                  "index": 173
+                },
+                "identifierName": "route"
+              },
+              "name": "route"
+            },
+            "computed": false,
+            "property": {
+              "type": "Identifier",
+              "start": 174,
+              "end": 177,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 6,
+                  "index": 174
+                },
+                "end": {
+                  "line": 7,
+                  "column": 9,
+                  "index": 177
+                },
+                "identifierName": "get"
+              },
+              "name": "get"
+            }
+          },
+          "arguments": [
+            {
+              "type": "StringLiteral",
+              "start": 178,
+              "end": 186,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 10,
+                  "index": 178
+                },
+                "end": {
+                  "line": 7,
+                  "column": 18,
+                  "index": 186
+                }
+              },
+              "extra": {
+                "rawValue": "/chart",
+                "raw": "\"/chart\""
+              },
+              "value": "/chart"
+            },
+            {
+              "type": "CallExpression",
+              "start": 187,
+              "end": 231,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 19,
+                  "index": 187
+                },
+                "end": {
+                  "line": 7,
+                  "column": 63,
+                  "index": 231
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 187,
+                "end": 208,
+                "loc": {
+                  "start": {
+                    "line": 7,
+                    "column": 19,
+                    "index": 187
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 40,
+                    "index": 208
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 187,
+                  "end": 195,
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 19,
+                      "index": 187
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 27,
+                      "index": 195
+                    },
+                    "identifierName": "passport"
+                  },
+                  "name": "passport"
+                },
+                "computed": false,
+                "property": {
+                  "type": "Identifier",
+                  "start": 196,
+                  "end": 208,
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 28,
+                      "index": 196
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 40,
+                      "index": 208
+                    },
+                    "identifierName": "authenticate"
+                  },
+                  "name": "authenticate"
+                }
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 209,
+                  "end": 214,
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 41,
+                      "index": 209
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 46,
+                      "index": 214
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "jwt",
+                    "raw": "'jwt'"
+                  },
+                  "value": "jwt"
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 215,
+                  "end": 230,
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 47,
+                      "index": 215
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 62,
+                      "index": 230
+                    }
+                  },
+                  "properties": [
+                    {
+                      "type": "ObjectProperty",
+                      "start": 216,
+                      "end": 229,
+                      "loc": {
+                        "start": {
+                          "line": 7,
+                          "column": 48,
+                          "index": 216
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 61,
+                          "index": 229
+                        }
+                      },
+                      "method": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 216,
+                        "end": 223,
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 48,
+                            "index": 216
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 55,
+                            "index": 223
+                          },
+                          "identifierName": "session"
+                        },
+                        "name": "session"
+                      },
+                      "computed": false,
+                      "shorthand": false,
+                      "value": {
+                        "type": "BooleanLiteral",
+                        "start": 224,
+                        "end": 229,
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 56,
+                            "index": 224
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 61,
+                            "index": 229
+                          }
+                        },
+                        "value": false
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Identifier",
+              "start": 233,
+              "end": 245,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 65,
+                  "index": 233
+                },
+                "end": {
+                  "line": 7,
+                  "column": 77,
+                  "index": 245
+                },
+                "identifierName": "getChartData"
+              },
+              "name": "getChartData"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 248,
+        "end": 285,
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 0,
+            "index": 248
+          },
+          "end": {
+            "line": 8,
+            "column": 37,
+            "index": 285
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 248,
+          "end": 285,
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0,
+              "index": 248
+            },
+            "end": {
+              "line": 8,
+              "column": 37,
+              "index": 285
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 248,
+            "end": 257,
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 0,
+                "index": 248
+              },
+              "end": {
+                "line": 8,
+                "column": 9,
+                "index": 257
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 248,
+              "end": 253,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 0,
+                  "index": 248
+                },
+                "end": {
+                  "line": 8,
+                  "column": 5,
+                  "index": 253
+                },
+                "identifierName": "route"
+              },
+              "name": "route"
+            },
+            "computed": false,
+            "property": {
+              "type": "Identifier",
+              "start": 254,
+              "end": 257,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 6,
+                  "index": 254
+                },
+                "end": {
+                  "line": 8,
+                  "column": 9,
+                  "index": 257
+                },
+                "identifierName": "get"
+              },
+              "name": "get"
+            }
+          },
+          "arguments": [
+            {
+              "type": "StringLiteral",
+              "start": 258,
+              "end": 270,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 10,
+                  "index": 258
+                },
+                "end": {
+                  "line": 8,
+                  "column": 22,
+                  "index": 270
+                }
+              },
+              "extra": {
+                "rawValue": "/get-chart",
+                "raw": "'/get-chart'"
+              },
+              "value": "/get-chart"
+            },
+            {
+              "type": "Identifier",
+              "start": 272,
+              "end": 284,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 24,
+                  "index": 272
+                },
+                "end": {
+                  "line": 8,
+                  "column": 36,
+                  "index": 284
+                },
+                "identifierName": "getChartPage"
+              },
+              "name": "getChartPage"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 287,
+        "end": 310,
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 0,
+            "index": 287
+          },
+          "end": {
+            "line": 10,
+            "column": 23,
+            "index": 310
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 287,
+          "end": 309,
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 0,
+              "index": 287
+            },
+            "end": {
+              "line": 10,
+              "column": 22,
+              "index": 309
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 287,
+            "end": 301,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 0,
+                "index": 287
+              },
+              "end": {
+                "line": 10,
+                "column": 14,
+                "index": 301
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 287,
+              "end": 293,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 0,
+                  "index": 287
+                },
+                "end": {
+                  "line": 10,
+                  "column": 6,
+                  "index": 293
+                },
+                "identifierName": "module"
+              },
+              "name": "module"
+            },
+            "computed": false,
+            "property": {
+              "type": "Identifier",
+              "start": 294,
+              "end": 301,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 7,
+                  "index": 294
+                },
+                "end": {
+                  "line": 10,
+                  "column": 14,
+                  "index": 301
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            }
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 309,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 17,
+                "index": 304
+              },
+              "end": {
+                "line": 10,
+                "column": 22,
+                "index": 309
+              },
+              "identifierName": "route"
+            },
+            "name": "route"
+          }
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": []
+}

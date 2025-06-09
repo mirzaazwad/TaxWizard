@@ -1,0 +1,826 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 229,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0,
+      "index": 0
+    },
+    "end": {
+      "line": 11,
+      "column": 0,
+      "index": 229
+    }
+  },
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 229,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0,
+        "index": 0
+      },
+      "end": {
+        "line": 11,
+        "column": 0,
+        "index": 229
+      }
+    },
+    "sourceType": "module",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "VariableDeclaration",
+        "start": 0,
+        "end": 42,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0,
+            "index": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 42,
+            "index": 42
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 6,
+            "end": 41,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 6,
+                "index": 6
+              },
+              "end": {
+                "line": 1,
+                "column": 41,
+                "index": 41
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 6,
+              "end": 11,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 6,
+                  "index": 6
+                },
+                "end": {
+                  "line": 1,
+                  "column": 11,
+                  "index": 11
+                },
+                "identifierName": "route"
+              },
+              "name": "route"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 14,
+              "end": 41,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 14,
+                  "index": 14
+                },
+                "end": {
+                  "line": 1,
+                  "column": 41,
+                  "index": 41
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 14,
+                "end": 39,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 14,
+                    "index": 14
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 39,
+                    "index": 39
+                  }
+                },
+                "object": {
+                  "type": "CallExpression",
+                  "start": 14,
+                  "end": 32,
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 14,
+                      "index": 14
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 32,
+                      "index": 32
+                    }
+                  },
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 14,
+                    "end": 21,
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 14,
+                        "index": 14
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 21,
+                        "index": 21
+                      },
+                      "identifierName": "require"
+                    },
+                    "name": "require"
+                  },
+                  "arguments": [
+                    {
+                      "type": "StringLiteral",
+                      "start": 22,
+                      "end": 31,
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 22,
+                          "index": 22
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 31,
+                          "index": 31
+                        }
+                      },
+                      "extra": {
+                        "rawValue": "express",
+                        "raw": "\"express\""
+                      },
+                      "value": "express"
+                    }
+                  ]
+                },
+                "computed": false,
+                "property": {
+                  "type": "Identifier",
+                  "start": 33,
+                  "end": 39,
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 33,
+                      "index": 33
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 39,
+                      "index": 39
+                    },
+                    "identifierName": "Router"
+                  },
+                  "name": "Router"
+                }
+              },
+              "arguments": []
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 46,
+        "end": 132,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0,
+            "index": 46
+          },
+          "end": {
+            "line": 6,
+            "column": 51,
+            "index": 132
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 52,
+            "end": 131,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 6,
+                "index": 52
+              },
+              "end": {
+                "line": 6,
+                "column": 50,
+                "index": 131
+              }
+            },
+            "id": {
+              "type": "ObjectPattern",
+              "start": 52,
+              "end": 82,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 6,
+                  "index": 52
+                },
+                "end": {
+                  "line": 6,
+                  "column": 1,
+                  "index": 82
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 57,
+                  "end": 65,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 2,
+                      "index": 57
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 10,
+                      "index": 65
+                    }
+                  },
+                  "key": {
+                    "type": "Identifier",
+                    "start": 57,
+                    "end": 65,
+                    "loc": {
+                      "start": {
+                        "line": 4,
+                        "column": 2,
+                        "index": 57
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 10,
+                        "index": 65
+                      },
+                      "identifierName": "getLogin"
+                    },
+                    "name": "getLogin"
+                  },
+                  "computed": false,
+                  "method": false,
+                  "shorthand": true,
+                  "value": {
+                    "type": "Identifier",
+                    "start": 57,
+                    "end": 65,
+                    "loc": {
+                      "start": {
+                        "line": 4,
+                        "column": 2,
+                        "index": 57
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 10,
+                        "index": 65
+                      },
+                      "identifierName": "getLogin"
+                    },
+                    "name": "getLogin"
+                  },
+                  "extra": {
+                    "shorthand": true
+                  }
+                },
+                {
+                  "type": "ObjectProperty",
+                  "start": 70,
+                  "end": 79,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 2,
+                      "index": 70
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 11,
+                      "index": 79
+                    }
+                  },
+                  "key": {
+                    "type": "Identifier",
+                    "start": 70,
+                    "end": 79,
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 2,
+                        "index": 70
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 11,
+                        "index": 79
+                      },
+                      "identifierName": "loginUser"
+                    },
+                    "name": "loginUser"
+                  },
+                  "computed": false,
+                  "method": false,
+                  "shorthand": true,
+                  "value": {
+                    "type": "Identifier",
+                    "start": 70,
+                    "end": 79,
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 2,
+                        "index": 70
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 11,
+                        "index": 79
+                      },
+                      "identifierName": "loginUser"
+                    },
+                    "name": "loginUser"
+                  },
+                  "extra": {
+                    "shorthand": true
+                  }
+                }
+              ]
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 85,
+              "end": 131,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 4,
+                  "index": 85
+                },
+                "end": {
+                  "line": 6,
+                  "column": 50,
+                  "index": 131
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 85,
+                "end": 92,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 4,
+                    "index": 85
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 11,
+                    "index": 92
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 93,
+                  "end": 130,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 12,
+                      "index": 93
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 49,
+                      "index": 130
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "../controllers/login.controllers.js",
+                    "raw": "\"../controllers/login.controllers.js\""
+                  },
+                  "value": "../controllers/login.controllers.js"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 136,
+        "end": 166,
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 0,
+            "index": 136
+          },
+          "end": {
+            "line": 8,
+            "column": 30,
+            "index": 166
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 136,
+          "end": 165,
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0,
+              "index": 136
+            },
+            "end": {
+              "line": 8,
+              "column": 29,
+              "index": 165
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 136,
+            "end": 145,
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 0,
+                "index": 136
+              },
+              "end": {
+                "line": 8,
+                "column": 9,
+                "index": 145
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 136,
+              "end": 141,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 0,
+                  "index": 136
+                },
+                "end": {
+                  "line": 8,
+                  "column": 5,
+                  "index": 141
+                },
+                "identifierName": "route"
+              },
+              "name": "route"
+            },
+            "computed": false,
+            "property": {
+              "type": "Identifier",
+              "start": 142,
+              "end": 145,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 6,
+                  "index": 142
+                },
+                "end": {
+                  "line": 8,
+                  "column": 9,
+                  "index": 145
+                },
+                "identifierName": "get"
+              },
+              "name": "get"
+            }
+          },
+          "arguments": [
+            {
+              "type": "StringLiteral",
+              "start": 146,
+              "end": 154,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 10,
+                  "index": 146
+                },
+                "end": {
+                  "line": 8,
+                  "column": 18,
+                  "index": 154
+                }
+              },
+              "extra": {
+                "rawValue": "/login",
+                "raw": "\"/login\""
+              },
+              "value": "/login"
+            },
+            {
+              "type": "Identifier",
+              "start": 156,
+              "end": 164,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 20,
+                  "index": 156
+                },
+                "end": {
+                  "line": 8,
+                  "column": 28,
+                  "index": 164
+                },
+                "identifierName": "getLogin"
+              },
+              "name": "getLogin"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 168,
+        "end": 202,
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 0,
+            "index": 168
+          },
+          "end": {
+            "line": 9,
+            "column": 34,
+            "index": 202
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 168,
+          "end": 202,
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 0,
+              "index": 168
+            },
+            "end": {
+              "line": 9,
+              "column": 34,
+              "index": 202
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 168,
+            "end": 178,
+            "loc": {
+              "start": {
+                "line": 9,
+                "column": 0,
+                "index": 168
+              },
+              "end": {
+                "line": 9,
+                "column": 10,
+                "index": 178
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 168,
+              "end": 173,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 0,
+                  "index": 168
+                },
+                "end": {
+                  "line": 9,
+                  "column": 5,
+                  "index": 173
+                },
+                "identifierName": "route"
+              },
+              "name": "route"
+            },
+            "computed": false,
+            "property": {
+              "type": "Identifier",
+              "start": 174,
+              "end": 178,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 6,
+                  "index": 174
+                },
+                "end": {
+                  "line": 9,
+                  "column": 10,
+                  "index": 178
+                },
+                "identifierName": "post"
+              },
+              "name": "post"
+            }
+          },
+          "arguments": [
+            {
+              "type": "StringLiteral",
+              "start": 179,
+              "end": 191,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 11,
+                  "index": 179
+                },
+                "end": {
+                  "line": 9,
+                  "column": 23,
+                  "index": 191
+                }
+              },
+              "extra": {
+                "rawValue": "/loginUser",
+                "raw": "\"/loginUser\""
+              },
+              "value": "/loginUser"
+            },
+            {
+              "type": "Identifier",
+              "start": 192,
+              "end": 201,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 24,
+                  "index": 192
+                },
+                "end": {
+                  "line": 9,
+                  "column": 33,
+                  "index": 201
+                },
+                "identifierName": "loginUser"
+              },
+              "name": "loginUser"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 204,
+        "end": 227,
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 0,
+            "index": 204
+          },
+          "end": {
+            "line": 10,
+            "column": 23,
+            "index": 227
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 204,
+          "end": 226,
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 0,
+              "index": 204
+            },
+            "end": {
+              "line": 10,
+              "column": 22,
+              "index": 226
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 204,
+            "end": 218,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 0,
+                "index": 204
+              },
+              "end": {
+                "line": 10,
+                "column": 14,
+                "index": 218
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 204,
+              "end": 210,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 0,
+                  "index": 204
+                },
+                "end": {
+                  "line": 10,
+                  "column": 6,
+                  "index": 210
+                },
+                "identifierName": "module"
+              },
+              "name": "module"
+            },
+            "computed": false,
+            "property": {
+              "type": "Identifier",
+              "start": 211,
+              "end": 218,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 7,
+                  "index": 211
+                },
+                "end": {
+                  "line": 10,
+                  "column": 14,
+                  "index": 218
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            }
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 221,
+            "end": 226,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 17,
+                "index": 221
+              },
+              "end": {
+                "line": 10,
+                "column": 22,
+                "index": 226
+              },
+              "identifierName": "route"
+            },
+            "name": "route"
+          }
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": []
+}

@@ -1,0 +1,829 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 253,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0,
+      "index": 0
+    },
+    "end": {
+      "line": 11,
+      "column": 0,
+      "index": 253
+    }
+  },
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 253,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0,
+        "index": 0
+      },
+      "end": {
+        "line": 11,
+        "column": 0,
+        "index": 253
+      }
+    },
+    "sourceType": "module",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "VariableDeclaration",
+        "start": 0,
+        "end": 42,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0,
+            "index": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 42,
+            "index": 42
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 6,
+            "end": 41,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 6,
+                "index": 6
+              },
+              "end": {
+                "line": 1,
+                "column": 41,
+                "index": 41
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 6,
+              "end": 11,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 6,
+                  "index": 6
+                },
+                "end": {
+                  "line": 1,
+                  "column": 11,
+                  "index": 11
+                },
+                "identifierName": "route"
+              },
+              "name": "route"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 14,
+              "end": 41,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 14,
+                  "index": 14
+                },
+                "end": {
+                  "line": 1,
+                  "column": 41,
+                  "index": 41
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 14,
+                "end": 39,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 14,
+                    "index": 14
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 39,
+                    "index": 39
+                  }
+                },
+                "object": {
+                  "type": "CallExpression",
+                  "start": 14,
+                  "end": 32,
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 14,
+                      "index": 14
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 32,
+                      "index": 32
+                    }
+                  },
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 14,
+                    "end": 21,
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 14,
+                        "index": 14
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 21,
+                        "index": 21
+                      },
+                      "identifierName": "require"
+                    },
+                    "name": "require"
+                  },
+                  "arguments": [
+                    {
+                      "type": "StringLiteral",
+                      "start": 22,
+                      "end": 31,
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 22,
+                          "index": 22
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 31,
+                          "index": 31
+                        }
+                      },
+                      "extra": {
+                        "rawValue": "express",
+                        "raw": "\"express\""
+                      },
+                      "value": "express"
+                    }
+                  ]
+                },
+                "computed": false,
+                "property": {
+                  "type": "Identifier",
+                  "start": 33,
+                  "end": 39,
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 33,
+                      "index": 33
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 39,
+                      "index": 39
+                    },
+                    "identifierName": "Router"
+                  },
+                  "name": "Router"
+                }
+              },
+              "arguments": []
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 46,
+        "end": 142,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0,
+            "index": 46
+          },
+          "end": {
+            "line": 6,
+            "column": 54,
+            "index": 142
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 52,
+            "end": 141,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 6,
+                "index": 52
+              },
+              "end": {
+                "line": 6,
+                "column": 53,
+                "index": 141
+              }
+            },
+            "id": {
+              "type": "ObjectPattern",
+              "start": 52,
+              "end": 89,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 6,
+                  "index": 52
+                },
+                "end": {
+                  "line": 6,
+                  "column": 1,
+                  "index": 89
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 57,
+                  "end": 69,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 2,
+                      "index": 57
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 14,
+                      "index": 69
+                    }
+                  },
+                  "key": {
+                    "type": "Identifier",
+                    "start": 57,
+                    "end": 69,
+                    "loc": {
+                      "start": {
+                        "line": 4,
+                        "column": 2,
+                        "index": 57
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 14,
+                        "index": 69
+                      },
+                      "identifierName": "registerUser"
+                    },
+                    "name": "registerUser"
+                  },
+                  "computed": false,
+                  "method": false,
+                  "shorthand": true,
+                  "value": {
+                    "type": "Identifier",
+                    "start": 57,
+                    "end": 69,
+                    "loc": {
+                      "start": {
+                        "line": 4,
+                        "column": 2,
+                        "index": 57
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 14,
+                        "index": 69
+                      },
+                      "identifierName": "registerUser"
+                    },
+                    "name": "registerUser"
+                  },
+                  "extra": {
+                    "shorthand": true
+                  }
+                },
+                {
+                  "type": "ObjectProperty",
+                  "start": 74,
+                  "end": 85,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 2,
+                      "index": 74
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 13,
+                      "index": 85
+                    }
+                  },
+                  "key": {
+                    "type": "Identifier",
+                    "start": 74,
+                    "end": 85,
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 2,
+                        "index": 74
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 13,
+                        "index": 85
+                      },
+                      "identifierName": "getRegister"
+                    },
+                    "name": "getRegister"
+                  },
+                  "computed": false,
+                  "method": false,
+                  "shorthand": true,
+                  "value": {
+                    "type": "Identifier",
+                    "start": 74,
+                    "end": 85,
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 2,
+                        "index": 74
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 13,
+                        "index": 85
+                      },
+                      "identifierName": "getRegister"
+                    },
+                    "name": "getRegister"
+                  },
+                  "extra": {
+                    "shorthand": true
+                  }
+                }
+              ],
+              "extra": {
+                "trailingComma": 85
+              }
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 92,
+              "end": 141,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 4,
+                  "index": 92
+                },
+                "end": {
+                  "line": 6,
+                  "column": 53,
+                  "index": 141
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 92,
+                "end": 99,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 4,
+                    "index": 92
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 11,
+                    "index": 99
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 100,
+                  "end": 140,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 12,
+                      "index": 100
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 52,
+                      "index": 140
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "../controllers/register.controllers.js",
+                    "raw": "\"../controllers/register.controllers.js\""
+                  },
+                  "value": "../controllers/register.controllers.js"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 146,
+        "end": 182,
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 0,
+            "index": 146
+          },
+          "end": {
+            "line": 8,
+            "column": 36,
+            "index": 182
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 146,
+          "end": 181,
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0,
+              "index": 146
+            },
+            "end": {
+              "line": 8,
+              "column": 35,
+              "index": 181
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 146,
+            "end": 155,
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 0,
+                "index": 146
+              },
+              "end": {
+                "line": 8,
+                "column": 9,
+                "index": 155
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 146,
+              "end": 151,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 0,
+                  "index": 146
+                },
+                "end": {
+                  "line": 8,
+                  "column": 5,
+                  "index": 151
+                },
+                "identifierName": "route"
+              },
+              "name": "route"
+            },
+            "computed": false,
+            "property": {
+              "type": "Identifier",
+              "start": 152,
+              "end": 155,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 6,
+                  "index": 152
+                },
+                "end": {
+                  "line": 8,
+                  "column": 9,
+                  "index": 155
+                },
+                "identifierName": "get"
+              },
+              "name": "get"
+            }
+          },
+          "arguments": [
+            {
+              "type": "StringLiteral",
+              "start": 156,
+              "end": 167,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 10,
+                  "index": 156
+                },
+                "end": {
+                  "line": 8,
+                  "column": 21,
+                  "index": 167
+                }
+              },
+              "extra": {
+                "rawValue": "/register",
+                "raw": "\"/register\""
+              },
+              "value": "/register"
+            },
+            {
+              "type": "Identifier",
+              "start": 169,
+              "end": 180,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 23,
+                  "index": 169
+                },
+                "end": {
+                  "line": 8,
+                  "column": 34,
+                  "index": 180
+                },
+                "identifierName": "getRegister"
+              },
+              "name": "getRegister"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 184,
+        "end": 226,
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 0,
+            "index": 184
+          },
+          "end": {
+            "line": 9,
+            "column": 42,
+            "index": 226
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 184,
+          "end": 225,
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 0,
+              "index": 184
+            },
+            "end": {
+              "line": 9,
+              "column": 41,
+              "index": 225
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 184,
+            "end": 194,
+            "loc": {
+              "start": {
+                "line": 9,
+                "column": 0,
+                "index": 184
+              },
+              "end": {
+                "line": 9,
+                "column": 10,
+                "index": 194
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 184,
+              "end": 189,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 0,
+                  "index": 184
+                },
+                "end": {
+                  "line": 9,
+                  "column": 5,
+                  "index": 189
+                },
+                "identifierName": "route"
+              },
+              "name": "route"
+            },
+            "computed": false,
+            "property": {
+              "type": "Identifier",
+              "start": 190,
+              "end": 194,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 6,
+                  "index": 190
+                },
+                "end": {
+                  "line": 9,
+                  "column": 10,
+                  "index": 194
+                },
+                "identifierName": "post"
+              },
+              "name": "post"
+            }
+          },
+          "arguments": [
+            {
+              "type": "StringLiteral",
+              "start": 195,
+              "end": 210,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 11,
+                  "index": 195
+                },
+                "end": {
+                  "line": 9,
+                  "column": 26,
+                  "index": 210
+                }
+              },
+              "extra": {
+                "rawValue": "/registerUser",
+                "raw": "\"/registerUser\""
+              },
+              "value": "/registerUser"
+            },
+            {
+              "type": "Identifier",
+              "start": 212,
+              "end": 224,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 28,
+                  "index": 212
+                },
+                "end": {
+                  "line": 9,
+                  "column": 40,
+                  "index": 224
+                },
+                "identifierName": "registerUser"
+              },
+              "name": "registerUser"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 228,
+        "end": 251,
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 0,
+            "index": 228
+          },
+          "end": {
+            "line": 10,
+            "column": 23,
+            "index": 251
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 228,
+          "end": 250,
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 0,
+              "index": 228
+            },
+            "end": {
+              "line": 10,
+              "column": 22,
+              "index": 250
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 228,
+            "end": 242,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 0,
+                "index": 228
+              },
+              "end": {
+                "line": 10,
+                "column": 14,
+                "index": 242
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 228,
+              "end": 234,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 0,
+                  "index": 228
+                },
+                "end": {
+                  "line": 10,
+                  "column": 6,
+                  "index": 234
+                },
+                "identifierName": "module"
+              },
+              "name": "module"
+            },
+            "computed": false,
+            "property": {
+              "type": "Identifier",
+              "start": 235,
+              "end": 242,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 7,
+                  "index": 235
+                },
+                "end": {
+                  "line": 10,
+                  "column": 14,
+                  "index": 242
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            }
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 245,
+            "end": 250,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 17,
+                "index": 245
+              },
+              "end": {
+                "line": 10,
+                "column": 22,
+                "index": 250
+              },
+              "identifierName": "route"
+            },
+            "name": "route"
+          }
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": []
+}

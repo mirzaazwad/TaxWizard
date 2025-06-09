@@ -1,0 +1,6 @@
+projectKey=software-maintenance
+serverUrl=http://localhost:9000
+serverVersion=25.5.0.107428
+dashboardUrl=http://localhost:9000/dashboard?id=software-maintenance
+ceTaskId=22650315-58d3-4f49-a886-b3152348b94c
+ceTaskUrl=http://localhost:9000/api/ce/task?id=22650315-58d3-4f49-a886-b3152348b94c
